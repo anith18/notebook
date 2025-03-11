@@ -21,7 +21,7 @@ router.post('/addnote', fetchuser, [
     body('description', 'Description must be atleast 5 characters').isLength({ min: 5 }),], async (req, res) => {
         try {
             const { title, description, tag } = req.body;
-
+               console.log('note',req.body)
             // If there are errors, return Bad request and the errors
             const errors = validationResult(req);
             if (!errors.isEmpty()) {
@@ -31,7 +31,7 @@ router.post('/addnote', fetchuser, [
                 title, description, tag, user: req.user.id
             })
             const savedNote = await note.save()
-
+            console.log('note',)
             res.json(savedNote)
 
         } catch (error) {
