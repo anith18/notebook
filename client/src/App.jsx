@@ -8,6 +8,8 @@ import Alert from './components/Alert';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import {useState} from 'react'; 
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 // import About from './components/About';
 
 function App() {
