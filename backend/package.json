@@ -4,6 +4,7 @@
   "description": "iNotebook - Your notebook on the cloud",
   "main": "index.js",
   "scripts": {
+    "build":"npm run bulid",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "server": "nodemon index.js",
