@@ -3,8 +3,8 @@ import { useNavigate } from 'react-router-dom';
 
 const Signup = (props) => {
   let navigate=useNavigate ();
-  //const host = "https://backend2-tw3m.onrender.com";
-  const host = "http://localhost:5000";
+  const host = "https://notebook-aoqd.onrender.com";
+  // const host = "http://localhost:5000";
   const [credentials,setCredentials]=useState({name:"",email:"",password:"",cpassword:""});
       const handleSubmit=async (e)=>{
           e.preventDefault();
