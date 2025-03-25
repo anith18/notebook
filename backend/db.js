@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const mongoURI = "mongodb+srv://anith:12345@cluster0.jrhtr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const mongoURI = "mongodb+srv://anith:anith123@cluster0.jrhtr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const connectToMongo = () => {
     try {
